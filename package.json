@@ -1,0 +1,27 @@
+{
+  "name": "bytium-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal client and server Bytium resource for FiveM Enhanced.",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "@bytium-core/client": "^1.0.0",
+    "@bytium-core/server": "^1.0.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@bytium-core/dev-utils": "^1.0.0",
+    "@citizenfx/client": "^2.0.35805-1",
+    "@citizenfx/server": "^2.0.35805-1",
+    "@types/node": "^26.6.3",
+    "typescript": "^5.9.3",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "volta": {
+    "node": "26.3.0"
+  }
+}

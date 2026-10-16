@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'bytium'
 description 'A minimal client and server Bytium resource for FiveM Enhanced.'
-version '1.0.3'
+version '1.0.4'
 
 client_script 'dist/client/index.js'
 server_script 'dist/server/index.js'
